@@ -1,0 +1,72 @@
+/*
+ * react-calendar-heatmap styles
+ *
+ * All of the styles in this file are optional and configurable!
+ * The github and gitlab color scales are provided for reference.
+ */
+
+.react-calendar-heatmap text {
+  font-size: 8px;
+  fill: #aaa;
+}
+#my-tooltip {
+  border-radius: 5px;
+}
+.react-calendar-heatmap .react-calendar-heatmap-small-text {
+  font-size: 5px;
+}
+
+.react-calendar-heatmap rect:hover {
+  stroke: #555;
+  stroke-width: 1px;
+}
+
+/*
+ * Default color scale
+ */
+
+.react-calendar-heatmap .color-empty {
+  fill: #eeeeee;
+}
+
+.react-calendar-heatmap .color-filled {
+  fill: #00ff00;
+}
+
+/*
+ * Black color scale
+ */
+
+ .react-calendar-heatmap .color-green-0 {
+  fill: #d4e9d8;
+}
+.react-calendar-heatmap .color-green-1 {
+  fill: #a8d3b3;
+}
+.react-calendar-heatmap .color-green-2 {
+  fill: #70b986;
+}
+.react-calendar-heatmap .color-green-3 {
+  fill: #3a9f5a;
+}
+.react-calendar-heatmap .color-green-4 {
+  fill: #0f7f33;
+}
+
+/*
+ * Add gap between months
+ */
+.react-calendar-heatmap .month-labels {
+  display: flex;
+  justify-content: space-between;
+  /* gap: 5px; */
+  margin-bottom: 10px;
+}
+
+.react-calendar-heatmap .react-calendar-heatmap-week {
+  margin-bottom: 2px;
+}
+
+.react-calendar-heatmap .react-calendar-heatmap-day {
+  margin: 2px;
+}

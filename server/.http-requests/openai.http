@@ -1,0 +1,8 @@
+POST http://localhost:3000/api/mcq/generate-ai
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6Im1vaGFuYW50aHZzMThAZ21haWwuY29tIiwiaWQiOjEsInJvbGUiOiJ1c2VyIiwiaWF0IjoxNzIyMjE0MDc3LCJleHAiOjE3MjQ4MDYwNzd9.ncosJJYX2Fdmzc8r6HN44Lasp7fBsCYPzlvVP18Cs08
+
+{
+  "text": "Java basics quiz",
+  "noOfQuestions": 10
+}

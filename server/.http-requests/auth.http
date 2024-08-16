@@ -1,0 +1,38 @@
+POST http://localhost:3000/api/auth/user/register
+Content-Type: application/json
+
+{
+  "email": "priyanshu@gmail.com",
+  "password": "123456",
+  "fullname": "Priyanshu T"
+}
+
+###
+
+POST http://localhost:3000/api/auth/user/login
+Content-Type: application/json
+
+{
+  "email": "priyanshu@gmail.com",
+  "password": "123456"
+}
+
+###
+
+GET http://localhost:3000/api/gateway
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InByaXlhbnNodUBnbWFpbC5jb20iLCJpZCI6MSwicm9sZSI6InVzZXIiLCJpYXQiOjE3MjIwNTIyODMsImV4cCI6MTcyNDY0NDI4M30.cvIJTenZ2_EC3MCQ2o-2v8bhdTOuwzzFPRw-DRDIzkY
+
+###
+GET http://localhost:8080/api/secure-endpoint
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InByaXlhbnNodUBnbWFpbC5jb20iLCJpZCI6MSwicm9sZSI6InVzZXIiLCJpYXQiOjE3MjIwNTIyODMsImV4cCI6MTcyNDY0NDI4M30.cvIJTenZ2_EC3MCQ2o-2v8bhdTOuwzzFPRw-DRDIzkY
+
+###
+
+GET http://localhost:3000/api/gateway/who-am-i
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InByaXlhbnNodUBnbWFpbC5jb20iLCJpZCI6MSwicm9sZSI6InVzZXIiLCJpYXQiOjE3MjIwNjE0MjUsImV4cCI6MTcyNDY1MzQyNX0.r2B8JjG4cD5DxJquCJSgFYSLAQ0QW6AsQ0OPpPAb4P0
+
+###
+
+GET http://localhost:8080/api/final-score
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6Im1vaGFuYW50aHZzMThAZ21haWwuY29tIiwiaWQiOjEsInJvbGUiOiJ1c2VyIiwiaWF0IjoxNzIyMjE0MDc3LCJleHAiOjE3MjQ4MDYwNzd9.ncosJJYX2Fdmzc8r6HN44Lasp7fBsCYPzlvVP18Cs08
+
